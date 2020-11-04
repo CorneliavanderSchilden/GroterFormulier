@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- hier zet je de code in de head tags -->
+  <title> Heb je even voor mij? </title>
+</head>
+<main>
+
+  <body>
+    <h1>Chef Harry's receptenhoek</h1>
+    <p>Jouw recept op onze website? Vul onderstaande gegevens in en wie weet wordt jouw recept 'Het recept van de
+      maand'?!</p>
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label for="naam">Naam:</label>
+        <input type="text" name="name" placeholder="Voornaam Achternaam" />
+      </p>
+      <p>
+        <label for="naam">E-mail:</label>
+        <input type="email" name="email" placeholder="E-mail" />
+      </p>
+      <p>
+        <label>Telefoonnummer:</label>
+        <input type="tel" name="Telefoon" placeholder="Telefoonnummer" />
+      </p>
+      <p>
+        <label>Leeftijd: </label>
+        <input type="number" name="Leeftijd" placeholder="Leeftijd" />
+      </p>
+      <p>
+        <label>Geboortdatum: <input type="date" name="geboortedatum" placeholder="Geboortdatum" /></label>
+      </p>
+      <p>
+        <label>Gender:<br>
+          <input type="radio" name="gender" value="male" /><label>Man </label><br>
+          <input type="radio" name="gender" value="female" /><label>Vrouw </label><br>
+          <input type="radio" name="gender" value="other" /><label>Zij/hen/hun</label>
+        </label>
+      </p>
+      <p>
+        <label>Favoriete Cuisine:<br>
+          <input type="checkbox" name="favocuisine" value="frans" /><label>Frans</label><br>
+          <input type="checkbox" name="favocuisine" value="italiaans" /><label>Italiaans</label><br>
+          <input type="checkbox" name="favocuisine" value="spaans" /><label>Spaans</label><br>
+          <input type="checkbox" name="favocuisine" value="arabisch" /><label>Arabisch</label>
+        </label>
+      </p>
+      <p>
+        <label>Favoriete kleur van short: <input type="color" name="kleur" /></label>
+      </p>
+      <p>
+        <label>Biografie: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <label>Upload je laatste recept:<br>
+          <input type="file" name="file" /></label>
+      </p>
+      <p>
+        <label>URL naar je website:<br>
+          <input type="url" name="url" /></label>
+      </p>
+      <p>
+        <button type="reset">Reset</button>
+      </p>
+      <p>
+        <button type="verzenden">Versturen</button>
+      </p>
+    </form>
+  </body>
+</main>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+  </ul>
+</nav>
+
+</html>
